@@ -182,13 +182,14 @@ body.custom-background { background-color: #000 !important; }
   text-decoration: underline !important;
 }
 
-@media screen and (min-width: 44.375em){
-  .site-header {
-      padding: 1.5em 7.6923%;
-  }
-}
 @media screen and (min-width: 61.5625em) {
   .site-header {
-      padding: 1.5em 4.5455%;
+    padding: 1.5em 0 !important;
+    margin-bottom: 7.75em;
   }
+}
+
+.entry-content a,
+.widget a {
+    text-decoration: underline;
 }
