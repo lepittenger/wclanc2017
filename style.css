@@ -90,7 +90,7 @@ button#menu-toggle {
   border-radius: 0 !important;;
 }
 
-@media screen and (min-width: 44.375em)  { /*710*/
+@media screen and (min-width: 710px)  {
   .site-header { 
     margin-bottom: 3.75em;
     padding: 1.5em 0 0 !important;
@@ -142,7 +142,7 @@ button#menu-toggle {
   ul.sub-menu.toggled-on { 
     background: #222;
     margin-left: 0 !important;
-  }  
+  }
 }
 
 .site {
