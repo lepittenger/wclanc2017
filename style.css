@@ -134,7 +134,7 @@ ul#menu-topnav li ul.sub-menu li a { color: #000; }
     width: 100%;
     padding: 21px 0;
     position: relative;
-    top: 40px;
+    top: 45px;
     z-index: 9999;
     left: 0;
     color: #fff;
@@ -146,6 +146,7 @@ ul#menu-topnav li ul.sub-menu li a { color: #000; }
     margin-bottom: 3.75em;
     height: 360px !important;    
   }
+
   #site-header-menu {
     background: #000;
     width: 100%;
