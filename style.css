@@ -144,6 +144,7 @@ ul#menu-topnav li ul.sub-menu li a { color: #000; }
   .site-header {
     padding: 2.625em 0 !important;
     margin-bottom: 3.75em;
+    height: 360px !important;    
   }
   #site-header-menu {
     background: #000;
