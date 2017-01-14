@@ -52,7 +52,6 @@ ul#menu-topnav li ul.sub-menu li a { color: #000; }
 @media screen and (min-width: 61.5625em) {
   .site-header {
     padding: 80px 0 !important;
-    margin: 52px 0;
   }
 }
 
