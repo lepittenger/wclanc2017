@@ -13,6 +13,13 @@ body, button, input, select, textarea {
   letter-spacing: 0.05em;
 }
 
+/*This sets all customizable links to have an underline*/
+.customisable,
+.customisable:link,
+.customisable:visited {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 44.375em){
   .site-header {
       padding: 1.5em 7.6923%;
