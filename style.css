@@ -29,16 +29,18 @@ Header
   background: linear-gradient(to right, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(https://2017.lancasterpa.wordcamp.org/files/2017/01/woods-2000x1333.jpg) no-repeat;
   background-size: cover;
   background-position: center top;
-  max-height: 323px;
+  max-height: 600px;
 }
 
-.site-branding { margin: 0 auto; }
+.site-branding { margin: 90px auto; }
 
 #site-header-menu {
   background: #000;
   width: 100%;
   padding: 10px 0;
   left: 0;
+  bottom: -50px;
+  position: relative  
 }
 
 ul#menu-topnav li a { color: #fff; }
@@ -74,6 +76,9 @@ ul#menu-topnav li ul.sub-menu li a { color: #000; }
 }
 
 @media screen and (min-width: 710px) and (max-width: 909px) {
+  .site-branding {
+    margin: 0 auto;
+  }
   button#menu-toggle {
     border: none;
     margin: 0 auto;
@@ -92,6 +97,7 @@ ul#menu-topnav li ul.sub-menu li a { color: #000; }
   .site-header { 
     margin-bottom: 3.75em;
     padding: 1.5em 0 0 !important;
+    height: 360px;
   }
 
   #site-header-menu {
@@ -162,6 +168,7 @@ ul#menu-topnav li ul.sub-menu li a { color: #000; }
   .site-header {
     padding: 1.5em 0 !important;
     margin-bottom: 4.75em;
+    height: 570px;
   }
 }
 
