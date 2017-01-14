@@ -12,6 +12,7 @@ body, button, input, select, textarea {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   display: inline-block !important;
+  width: 100% !important;
 }
 
 /*Changes site inner dimensions*/
