@@ -97,7 +97,7 @@ ul#menu-topnav li ul.sub-menu li a { color: #000; }
   .site-header { 
     margin-bottom: 3.75em;
     padding: 1.5em 0 0 !important;
-    height: 360px;
+    height: 360px !important;
   }
 
   #site-header-menu {
@@ -123,6 +123,9 @@ ul#menu-topnav li ul.sub-menu li a { color: #000; }
 }
 
 @media screen and (max-width: 709px) {
+  .site-branding {
+    margin: 0 auto;
+  }
   button#menu-toggle {
     border: none;
     margin: 0 auto;
@@ -131,11 +134,11 @@ ul#menu-topnav li ul.sub-menu li a { color: #000; }
     width: 100%;
     padding: 21px 0;
     position: relative;
-    top: 34px;
+    top: 40px;
     z-index: 9999;
     left: 0;
     color: #fff;
-    border-radius: 0 !important;;
+    border-radius: 0 !important;
   }
   
   .site-header {
