@@ -36,7 +36,7 @@ Header
 #site-header-menu {
   background: #000;
   width: 100%;
-  padding: 5px 0;
+  padding: 10px 0;
   left: 0;
 }
 
@@ -160,8 +160,8 @@ ul#menu-topnav li ul.sub-menu li a { color: #000; }
 
 @media screen and (min-width: 44.375em) {
   .site-header {
-    padding: 1.5em 0;
-    margin-bottom: 3.75em;
+    padding: 1.5em 0 !important;
+    margin-bottom: 4.75em;
   }
 }
 
