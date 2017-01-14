@@ -11,6 +11,7 @@ body, button, input, select, textarea {
   color: #0e0e0e;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  display: inline-block !important;
 }
 
 /*Changes site inner dimensions*/
@@ -75,7 +76,22 @@ ul#menu-topnav li ul.sub-menu li a { color: #000; }
   }
 }
 
-@media screen and (min-width: 710px)  {
+@media screen and (min-width: 710px) and (max-width: 909px) {
+  button#menu-toggle {
+    border: none;
+    margin: 0 auto;
+    display: block;
+    background: #000000;
+    width: 100%;
+    padding: 21px 0;
+    position: relative;
+    top: 34px;
+    z-index: 9999;
+    left: 0;
+    color: #fff;
+    border-radius: 0 !important;;
+  }
+
   .site-header { 
     margin-bottom: 3.75em;
     padding: 1.5em 0 0 !important;
