@@ -70,7 +70,6 @@ ul#menu-topnav li ul.sub-menu li a { color: #000; }
 .entry-footer a:hover,
 .site-info a:hover {
   box-shadow: none !important;
-  border: 1px solid #000;
 }
 
 @media screen and (min-width: 56.875em) {
