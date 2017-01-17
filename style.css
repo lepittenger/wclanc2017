@@ -58,13 +58,19 @@ ul#menu-topnav li ul.sub-menu li a { color: #000; }
   }
 }
 
+.main-navigation { text-align: center; }
+
 @media screen and (min-width: 56.875em) {
   .main-navigation {
     display: block;
     margin: 0 auto;
     position: relative;
     width: 100%;
-    max-width: 552px;
+  }
+
+  .main-navigation .primary-menu > li {
+    float: none !important;
+    display: inline-block;
   }
 
   .site-content {
