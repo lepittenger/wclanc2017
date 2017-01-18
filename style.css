@@ -224,3 +224,28 @@ body.custom-background { background-color: #000 !important; }
 .widget a {
     text-decoration: underline;
 }
+
+a.lanc-btn {
+  display: block;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  border: 3px solid #000;
+  font-size: 1.35em;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  font-weight: 600;
+}
+
+a.lanc-btn:hover,
+a.lanc-btn:focus,
+a.lanc-btn:active {
+  background: #000;
+  color: #fff;
+}
