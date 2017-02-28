@@ -253,3 +253,39 @@ a.lanc-btn:active {
   background: #000;
   color: #fff;
 }
+
+/* Schedule */
+
+span.wcpt-session-speakers {
+  display: block;
+  padding-left: 20px;
+}
+
+span.wcpt-session-speakers:before {
+  color: #464646;
+  content: "Speaker: ";
+  font-style: italic;
+}
+
+span.wcpt-session-speakers a {
+  color: #21759b;
+}
+
+th.wcpt-col-time {
+    width: 6em;
+}
+
+@media screen and (max-width: 700px) {
+  .wcpt-time {
+      padding: 8px 16px 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .wcpt-session-type-session:before {
+      color: #333;
+      border-bottom: 1px dashed #333;
+      border-top: 1px dashed #333;
+      font-family: Montserrat, "Helvetica Neue", sans-serif;
+  }
+}
